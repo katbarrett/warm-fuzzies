@@ -1,0 +1,53 @@
+body {
+	text-align: center;
+	background: url('../images/background.png') no-repeat 0 0;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.wrapper {
+	width: 1060px;
+	margin: 0 auto;
+}
+
+.container {
+	width: 1060px;
+}
+
+.bagtag {
+	background: url('../images/bagtag.png') no-repeat top center;
+	width: 300px;
+	height: 218px;
+	float: right;
+	margin: 40px 20px 0 0;
+	position: relative;
+	z-index: 1;
+}
+
+.baginfo {
+	width: 165px;
+	margin: 80px 0 0 95px;
+	-ms-transform: rotate(27deg); /* IE 9 */
+    -webkit-transform: rotate(27deg); /* Chrome, Safari, Opera */
+    transform: rotate(27deg);
+}
+
+.flexslider {
+	background: url('../images/paperbag.png') no-repeat top center;
+	width: 600px;
+	height: 606px;
+	margin: 0 auto;
+}
+
+.info {
+	padding-top: 80px;
+	width: 430px;
+	margin: 0 auto;
+}
+
+img { 
+	display: block;
+    margin: 0 auto;
+}
